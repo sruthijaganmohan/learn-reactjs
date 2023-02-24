@@ -4,7 +4,7 @@ import './App.css';
 import SearchIcon from './search.svg'
 import MovieCard from "./MovieCard";
 
-const API_URL = "http://www.omdbapi.com?apikey=134c4e2a"
+const API_URL = "http://www.omdbapi.com?apikey=########"
 
 const movie1 = {
     "Title": "Spiderman",
@@ -26,7 +26,7 @@ const App = () => {
     }
 
     useEffect(() => {
-        searchMovies('Spiderman');
+        searchMovies('');
     }, []);
 
     return (
